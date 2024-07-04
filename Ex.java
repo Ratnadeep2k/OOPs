@@ -5,12 +5,14 @@ public class Ex{
         System.out.println(p1.color);
         p1.setTip(6);
         System.out.println(p1.tip);
+        p1.color ="yellow";
+        System.out.println(p1.color);
     }
 }
 
 class Pen{
     //prorps + function
-    String color;
+    String color; 
     int tip;
 
     void setColor(String newColor){
