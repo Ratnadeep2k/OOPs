@@ -2,22 +2,29 @@ public class Ex{
     public static void main(String args[]){
         Pen p1 = new  Pen();//we have created a pen object called p1;
         p1.setColor("Black");
-        System.out.println(p1.color);
+        System.out.println(p1.getColor());
         p1.setTip(6);
-        System.out.println(p1.tip);
-        p1.color ="yellow";
-        System.out.println(p1.color);
+        System.out.println(p1.getTip());
+        p1.setColor("yellow");
+        System.out.println(p1.getColor());
     }
 }
 
 class Pen{
     //prorps + function
-    String color; 
-    int tip;
+   private String color; 
+    private int tip;
 
     void setColor(String newColor){
         color = newColor;
     }
+    String getColor(){
+        return this.color;//same name variable
+    }
+    int getTip(){
+        return this.tip;
+    }
+
     void setTip(int newTip){
         tip = newTip;
     }
