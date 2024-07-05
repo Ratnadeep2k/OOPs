@@ -3,4 +3,6 @@
   - Classes and Objects
   - Access Modifiers/Specifiers
   - Getters & Setters
+  - Encapsulation
+  - Constructor
 
