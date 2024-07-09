@@ -7,4 +7,6 @@
   - Constructor
   - Copy constructor / Shallow constructor
   - Destructor (garbage collector)
+  - Inheritance
 
+ 
