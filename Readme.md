@@ -5,4 +5,5 @@
   - Getters & Setters
   - Encapsulation
   - Constructor
+  - Copy constructor / Shallow constructor
 
