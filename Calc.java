@@ -9,6 +9,7 @@ public class Calc {
         Jony.eat();
     }
 }
+//Method overriding
  class Animal{
     void eat(){
         System.out.println("eating");
